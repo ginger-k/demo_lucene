@@ -44,6 +44,8 @@
 		<version>${lucene.version}</version>
 	</dependency>
 	<!-- 	
+		先把lib下的jar包拷贝到D盘下
+		cmd 进入maven安装目录下的bin目录
 		mvn install:install-file -Dfile=D:\IKAnalyzer-2012-4x.jar -DgroupId=com.kuang.lucene.analyzer -DartifactId=ik-analyzer -Dversion=2012-4.x -Dpackaging=jar
 	 -->
 	<dependency>
